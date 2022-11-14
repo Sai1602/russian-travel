@@ -1,0 +1,8 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #181A19;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
