@@ -5,4 +5,4 @@
 * HTML
 * CSS
 
-GitHub Pages:
+GitHub Pages: https://sai1602.github.io/russian-travel/
