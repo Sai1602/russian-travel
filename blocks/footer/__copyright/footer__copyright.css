@@ -7,3 +7,10 @@
   text-align: right;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    align-self: flex-end;
+    line-height: 14px;
+  }
+}

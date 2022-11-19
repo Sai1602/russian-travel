@@ -2,29 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
   gap: 80px;
   max-width: 984px;
-  min-width: 320px;
-  padding: 92px 148px 0;
+  padding: 92px 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .places {
-    padding: 92px 48px 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 750px) and (max-width: 999px) {
   .places {
     gap: 73px;
-    padding: 88px 24px 0;
+    padding: 88px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 749px) {
   .places {
     gap: 50px;
-    padding: 64px 0 0;
+    padding: 64px 0;
   }
 }
 

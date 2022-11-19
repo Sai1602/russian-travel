@@ -1,28 +1,25 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 690px;
-  min-width: 288px;
-  padding: 92px 442px 0 148px;
+  display: grid;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 92px 0 0 148px;
+  grid-template-columns: minmax(288px, 690px);
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 92px 286px 0 48px;
+    padding: 92px 0 0 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
   .intro {
-    max-width: 720px;
     padding: 88px 24px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 499px) {
   .intro {
-    max-width: 288px;
     padding: 64px 16px 0;
   }
 }
