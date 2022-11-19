@@ -3,18 +3,20 @@
   flex-direction: column;
   align-items: center;
   min-width: 320px;
-  max-width: 1280px;
+  max-width: 984px;
   padding: 56px 148px 0;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
+    max-width: 928px;
     padding: 48px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
+    max-width: 100vw;
     padding: 48px 0px 0;
   }
 }

@@ -17,13 +17,17 @@
 @media screen and (max-width: 928px) {
   .lead__image {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
     height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__image {
-    width: 100vw;
     height: 200px;
   }
 }

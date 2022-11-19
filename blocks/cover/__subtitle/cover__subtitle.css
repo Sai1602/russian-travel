@@ -10,3 +10,21 @@
   margin: 0;
   z-index: 2;
 }
+
+@media screen and (max-width: 506px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 6px;
+  }
+}

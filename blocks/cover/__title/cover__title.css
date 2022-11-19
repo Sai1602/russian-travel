@@ -9,3 +9,20 @@
   margin: 0;
   z-index: 2;
 }
+
+@media screen and (max-width: 506px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 42px;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

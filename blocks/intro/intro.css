@@ -2,7 +2,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 690px;
-  max-width: 288px;
+  max-width: 690px;
+  min-width: 288px;
   padding: 92px 442px 0 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 92px 286px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    padding: 64px 16px 0;
+  }
+}
+

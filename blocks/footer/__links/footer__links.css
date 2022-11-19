@@ -1,4 +1,6 @@
 .footer__links {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
+  max-width: 465px;
 }

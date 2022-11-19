@@ -8,3 +8,10 @@
   padding-bottom: 26px;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 288px;
+  }
+}

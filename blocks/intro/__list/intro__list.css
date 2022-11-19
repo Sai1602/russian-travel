@@ -2,5 +2,18 @@
   list-style-type: none;
   padding-top: 33px;
   padding-left: 0;
+  max-width: 690px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+  }
 }

@@ -11,3 +11,24 @@
   height: 740px;
   z-index: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 100vw;
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    max-width: 100vw;
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-width: 100vw;
+    max-height: 200px;
+  }
+}

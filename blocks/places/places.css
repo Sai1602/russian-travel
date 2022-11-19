@@ -7,3 +7,25 @@
   min-width: 320px;
   padding: 92px 148px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    gap: 73px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    gap: 50px;
+    padding: 64px 0 0;
+  }
+}
+
+
