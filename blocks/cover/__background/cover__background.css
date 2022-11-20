@@ -9,9 +9,22 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  z-index: 1;
+  z-index: 0;
 }
 
-.cover__background:hover .cover__overlay {
-  opacity: 0.8;
+.cover__background::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: .3;
+  z-index: -1;
+  transition: opacity .4s ease;
+}
+
+.cover__background:hover::before {
+  opacity: .8;
 }

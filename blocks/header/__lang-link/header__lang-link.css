@@ -7,6 +7,7 @@
   color: #fff;
   text-decoration: none;
   padding-top: 18px;
+  transition: all .4s ease;
 }
 
 .header__lang-link:hover {

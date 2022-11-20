@@ -6,3 +6,9 @@
   max-width: 456px;
   margin: 0;
 }
+
+@media screen and (max-width: 360px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}

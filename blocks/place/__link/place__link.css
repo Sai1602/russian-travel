@@ -8,6 +8,7 @@
   padding-top: 12px;
   margin: 0;
   color: #fff;
+  transition: all .4s ease;
 }
 
 .place__link:hover {

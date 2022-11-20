@@ -28,6 +28,6 @@
   .place {
     grid-template-columns: minmax(320px, 500px);
     max-width: 320px;
-    column-gap: 28px;
+    row-gap: 32px;
   }
 }
