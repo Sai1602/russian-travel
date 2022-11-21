@@ -12,9 +12,14 @@
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .place__paragraph {
     padding-left: 16px;
   }
 }
